@@ -1,24 +1,33 @@
-export const theme = {
+export const lightTheme = {
   colors: {
-    primary: "#83FFE6",
-    secondary: "#FF5F5F",
-    bg: "#2C2C2C",
-    bgWhite: "#FCFCFC",
-  },
-  button: {
-    bg: "#252c41",
-    typo: "#dddfe6",
+    bg: "white",
+    text: "#0D0B16",
+    button: "#E8E8E8",
+    buttonSelected: "white",
+    footerPoint: "#E8E8E8",
+    footerLine: "#262431",
   },
   typos: {
-    small: "1.0rem",
-    default: "1.6rem",
-    medium: "1.8rem",
-    big: "2rem",
+    small: "0.875rem",
+    default: "1.125rem",
+    medium: "1.5rem",
+    big: "2.125rem",
   },
-  title: {
-    big: "5.2rem",
-    medium: "4rem",
-    normal: "2rem",
-    small: "1.8rem",
+};
+
+export const darkTheme = {
+  colors: {
+    bg: "#262431",
+    text: "white",
+    button: "#1E1C28",
+    buttonSelected: "#262431",
+    footerPoint: "#464450",
+    footerLine: "white",
+  },
+  typos: {
+    small: "0.875rem",
+    default: "1.125rem",
+    medium: "1.5rem",
+    big: "2.125rem",
   },
 };
